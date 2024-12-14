@@ -9,7 +9,7 @@ $(document).ready(function () {
         cart.forEach(item => {
             cartItemsContainer.append(`
                 <div class="cart-item">
-                    <p>${item.name} x${item.quantity} - $${item.price * item.quantity}</p>
+                    <p>${item.name} x${item.quantity} - ₱${item.price * item.quantity}</p>
                 </div>
             `);
         });
